@@ -1,0 +1,10 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+openai-whisper>=20231117
+torch
+torchaudio
+pyaudio>=0.2.14
+pyttsx3>=2.90
+requests>=2.31.0
+pydantic>=2.6.0
+python-multipart>=0.0.9

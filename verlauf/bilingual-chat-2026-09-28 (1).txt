@@ -1,0 +1,75 @@
+--- BilingualBridge Gesprächsprotokoll (Browser-Export) ---
+Erstellt am: 28.9.2026, 20:30:18
+
+[2026-09-28T18:14:35.777Z] Du (Betreuer DE):
+Guten Tag meiin Name ist Benno Engler, was kann ich für Sie tun?
+
+[2026-09-28T18:16:15.280Z] Kunde / Übersetzung (EN):
+"Good day, my name is Benno Engler, how can I help you?"
+
+[2026-09-28T18:16:25.384Z] Kunde (EN):
+Hello, my name is Müller; my bill is too high.
+
+[2026-09-28T18:16:44.150Z] Du / Übersetzung (DE):
+Hallo, mein Name ist Müller; meine Rechnung ist zu hoch.
+
+[2026-09-28T18:17:11.723Z] Du (Betreuer DE):
+Damit ich Ihnen helfen kann benötige ich die Rechnungsnumer.
+
+[2026-09-28T18:17:36.507Z] Kunde / Übersetzung (EN):
+"So that I can help you, I need the invoice number."
+
+[2026-09-28T18:17:53.126Z] Kunde (EN):
+The invoice number is RE136328.
+
+[2026-09-28T18:18:07.600Z] Du / Übersetzung (DE):
+Die Rechnungsnr. ist RE136328.
+
+[2026-09-28T18:19:51.257Z] Du (Betreuer DE):
+Vielen Dank, ich sehe das wir das Inserat zweimal berechnet haben. Ich kann ihnen den Betrag als Gutschrift auf dem selben weg wie Sie bezahlt haben zurück senden. Ist das okay für Sie.
+
+[2026-09-28T18:20:46.780Z] Kunde / Übersetzung (EN):
+"Many thanks, I see that we've double-charged you for the advertisement. I can refund the amount to you as a credit on the same path as how you paid, is that okay with you?"
+
+[2026-09-28T18:21:06.392Z] Kunde (EN):
+By when can I expect the credit?
+
+[2026-09-28T18:21:21.657Z] Du / Übersetzung (DE):
+"Ich kann den Kredit bis wann erwarten?"
+
+[2026-09-28T18:23:46.432Z] Du (Betreuer DE):
+Die Gutschrift erfolgt in der regel nach 5 Werktagen aber aus der errfahrung heraus meist schon früher.Ist das okay für Sie?
+
+[2026-09-28T18:24:36.415Z] Kunde / Übersetzung (EN):
+"The credit is usually processed within 5 weekdays, but based on my experience, it's often done even sooner. Is that okay with you?"
+
+[2026-09-28T18:24:52.947Z] Kunde (EN):
+Thanks, that's fine with me.
+
+[2026-09-28T18:25:08.752Z] Du / Übersetzung (DE):
+"Dankeschön, das ist für mich in Ordnung."
+
+[2026-09-28T18:25:28.113Z] Du (Betreuer DE):
+Kann ich noch etwas für Sie tun?
+
+[2026-09-28T18:25:52.870Z] Kunde / Übersetzung (EN):
+"Can I do anything else for you?"
+
+[2026-09-28T18:25:58.329Z] Kunde (EN):
+No, thanks, that's all.
+
+[2026-09-28T18:26:12.066Z] Du / Übersetzung (DE):
+"Nein, danke, das ist alles."
+
+[2026-09-28T18:26:34.984Z] Kunde (EN):
+Fein, dann wünsche ich ihnen einen schönen tag.
+
+[2026-09-28T18:26:50.912Z] Du (Betreuer DE):
+Kunde (EN): Fein, dann wünsche ich ihnen einen schönen tag.
+
+[2026-09-28T18:26:55.275Z] Du / Übersetzung (DE):
+"Hervorragend, ich wünsche Ihnen einen schönen Tag."
+
+[2026-09-28T18:27:15.758Z] Kunde / Übersetzung (EN):
+"Customer (EN): Fine, then I wish you a lovely day."
+

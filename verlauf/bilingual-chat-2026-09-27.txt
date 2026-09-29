@@ -1,0 +1,21 @@
+--- BilingualBridge Gesprächsprotokoll ---
+Erstellt am: 27.9.2026, 16:31:21
+
+[2026-09-27T14:27:00.049Z] Du (DE):
+Guten Tag sie sprechen mit Benno Engler von mobile.de. Was kann ich für Sie tun.
+
+[2026-09-27T14:28:30.206Z] KI / Kunde (EN):
+"Good day, my name is Benno Engler from mobile.de. How can I help you?"
+
+[2026-09-27T14:29:15.220Z] Kunde (EN):
+Hello, my name is Bernd, my invoice is to hight.
+
+[2026-09-27T14:29:55.960Z] KI / Du (DE):
+Hallo, mein Name ist Bernd, meine Rechnung ist zu hoch.
+
+[2026-09-27T14:30:35.392Z] Du (DE):
+Damit ich mir das anschauen kann benötige ich die Rechnungsnummer.
+
+[2026-09-27T14:30:54.646Z] KI / Kunde (EN):
+"So that I can review it, I need the invoice number."
+

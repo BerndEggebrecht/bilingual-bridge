@@ -1,0 +1,51 @@
+--- BilingualBridge Gesprächsprotokoll (Browser-Export) ---
+Erstellt am: 28.9.2026, 20:12:59
+
+[2026-09-28T17:59:54.711Z] Du (Betreuer DE):
+Guuten Tag mein Name ist Benno Engler, was kann ich für Sie tun?
+
+[2026-09-28T18:01:42.833Z] Kunde (EN):
+Hello, my name is Müller. I received a bill that is too high.
+
+[2026-09-28T18:02:30.494Z] Kunde / Übersetzung (EN):
+"Good day, my name is Benno Engler, what can I do for you?"
+
+[2026-09-28T18:02:53.200Z] Kunde (EN):
+Hello, my name is Müller. I received a bill that is too high.
+
+[2026-09-28T18:03:02.445Z] Du / Übersetzung (DE):
+Hallo, ich heiße Müller. Ich erhielt eine Rechnung, die zu hoch ist.
+
+[2026-09-28T18:03:15.315Z] Du / Übersetzung (DE):
+Hallo, ich heiße Müller. Ich habe eine Rechnung erhalten, die zu hoch ist.
+
+[2026-09-28T18:03:40.577Z] Du (Betreuer DE):
+Damit ich Ihnen helfen kann benötige ich die Rechnuungsnummer.
+
+[2026-09-28T18:03:57.253Z] Kunde / Übersetzung (EN):
+"So I can help you, I need the invoice number."
+
+[2026-09-28T18:04:42.842Z] Kunde (EN):
+The invoice number is RE 12026-4368.
+
+[2026-09-28T18:05:00.094Z] Du / Übersetzung (DE):
+Die Rechnungsnummer ist RE 12026-4368.
+
+[2026-09-28T18:06:18.535Z] Du (Betreuer DE):
+Vielen DAnk, ich sehe das wir das Inserat zwei mal in rechnung gestellt haben. Ich kann Ihnen den Betrag als Gutschrift über den Gleichen weg wie sie die Rechnung bezahl haben zurückerstatten
+
+[2026-09-28T18:07:04.858Z] Kunde / Übersetzung (EN):
+"Thank you very much, I see that we've billed you twice for the same ad. I can refund the amount as a credit to your account, using the same payment method you used to pay the invoice."
+
+[2026-09-28T18:08:33.739Z] Kunde (EN):
+Thank you very much; by when can I expect the refund?
+
+[2026-09-28T18:08:53.374Z] Du / Übersetzung (DE):
+Vielen Dank; wann kann ich den Rückzahlungsbetrag erwarten?
+
+[2026-09-28T18:10:02.829Z] Du (Betreuer DE):
+Die gutschrift kann bis zu 5 Werktage dauern, erfahrungsgemäß aber schon früher. Kann ich sonst noch etwas für Sie tun?
+
+[2026-09-28T18:10:45.011Z] Kunde / Übersetzung (EN):
+"The good receipt can take up to 5 workdays, but usually even earlier. Is there anything else I can do for you?"
+

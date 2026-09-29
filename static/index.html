@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BilingualBridge - Pro Workspace</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #121212; color: #e0e0e0; margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; }
+        
+        .workspace { display: flex; gap: 20px; width: 100%; max-width: 1100px; justify-content: center; }
+        
+        .container { flex: 1; max-width: 650px; background: #1e1e1e; padding: 20px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.5); }
+        .sidebar-right { width: 340px; background: #1e1e1e; padding: 20px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.5); display: flex; flex-direction: column; gap: 15px; }
+        
+        .header-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+        h2 { color: #ff5555; margin: 0; font-size: 22px; }
+        
+        .header-badges { display: flex; gap: 8px; }
+        
+        .timer-badge, .sentiment-badge { background: #252525; border: 1px solid #444; color: #777; padding: 6px 10px; border-radius: 6px; font-family: monospace; font-size: 13px; font-weight: bold; display: flex; align-items: center; gap: 6px; }
+        .timer-badge.active { color: #00ffcc; border-color: #00ffcc; }
+        
+        /* Sentiment Farben */
+        .sentiment-badge.neutral { color: #28a745; border-color: #28a745; }
+        .sentiment-badge.warning { color: #ffc107; border-color: #ffc107; }
+        .sentiment-badge.angry { color: #dc3545; border-color: #dc3545; animation: pulse-angry 1s infinite; }
+        @keyframes pulse-angry { 0% { opacity: 1; } 50% { opacity: 0.4; } 100% { opacity: 1; } }
+
+        h3 { color: #00ffcc; text-align: center; margin-top: 0; font-size: 16px; border-bottom: 1px solid #333; padding-bottom: 8px; }
+        
+        .settings-bar { display: flex; justify-content: space-between; align-items: center; background: #222; padding: 8px 12px; border-radius: 6px; margin-bottom: 12px; font-size: 13px; }
+        .settings-bar label { cursor: pointer; display: flex; align-items: center; gap: 6px; }
+
+        .quick-replies { display: flex; flex-direction: column; gap: 6px; margin-bottom: 15px; background: #252525; padding: 10px; border-radius: 6px; border: 1px solid #333; }
+        .quick-replies span { font-size: 12px; color: #aaa; font-weight: bold; margin-bottom: 2px; }
+        
+        .snippet-search { width: 100%; padding: 6px; background: #1a1a1a; color: white; border: 1px solid #444; border-radius: 4px; margin-bottom: 6px; font-size: 12px; box-sizing: border-box; }
+        .snippet-search:focus { outline: none; border-color: #00ffcc; }
+
+        .qr-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; max-height: 120px; overflow-y: auto; padding-right: 2px; }
+        .qr-btn { background: #333; color: #00ffcc; border: 1px solid #444; padding: 6px 8px; font-size: 11px; border-radius: 4px; cursor: pointer; text-align: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .qr-btn:hover { background: #444; color: #fff; }
+
+        #chat-box { height: 260px; border: 1px solid #333; background: #181818; border-radius: 4px; overflow-y: scroll; padding: 10px; margin-bottom: 15px; display: flex; flex-direction: column; gap: 8px; }
+        
+        .control-group { display: flex; flex-direction: column; gap: 6px; }
+        .control-group label { font-size: 12px; color: #aaa; font-weight: bold; }
+        .control-group input[type="text"], .control-group select { padding: 8px; background: #222; color: white; border: 1px solid #444; border-radius: 4px; font-size: 14px; }
+
+        #notes-textarea { flex: 1; min-height: 180px; background: #181818; color: #e0e0e0; border: 1px solid #333; border-radius: 4px; padding: 10px; resize: none; font-family: Arial, sans-serif; font-size: 13px; line-height: 1.4; }
+        #notes-textarea:focus { outline: none; border-color: #ff5555; }
+
+        .message { padding: 8px 12px; border-radius: 6px; max-width: 80%; word-break: break-word; }
+        .message.betreuer { background: #0055ff; align-self: flex-end; color: white; }
+        .message.kunde { background: #2d3748; align-self: flex-start; color: #00ffcc; border: 1px solid #4a5568; }
+        .message.system { background: #333; align-self: center; color: #aaa; font-size: 12px; }
+
+        .input-group { display: flex; gap: 10px; margin-bottom: 10px; }
+        input[type="text"] { flex: 1; padding: 10px; border: 1px solid #444; background: #222; color: white; border-radius: 4px; }
+        button { padding: 10px 15px; background: #ff5555; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; }
+        button:hover { background: #ff3333; }
+        .btn-row { display: flex; gap: 10px; margin-bottom: 10px; }
+        #record-btn { background: #28a745; flex: 1; }
+        #auto-btn { background: #17a2b8; flex: 1; }
+        #export-btn { background: #6c757d; width: 100%; margin-top: 5px; }
+        #record-btn.recording, #auto-btn.recording { background: #dc3545; animation: pulse 1.5s infinite; }
+        @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
+        audio { width: 100%; margin-top: 10px; }
+        .status { text-align: center; font-size: 12px; color: #00ffcc; margin-bottom: 5px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="workspace">
+        <!-- Linke Spalte: BilingualBridge Chat -->
+        <div class="container">
+            <div class="header-row">
+                <h2>BilingualBridge - Pro</h2>
+                <div class="header-badges">
+                    <div class="sentiment-badge neutral" id="sentiment-indicator">🟢 Ruhig</div>
+                    <div class="timer-badge" id="aht-timer">⏱️ 00:00 (Bereit)</div>
+                </div>
+            </div>
+            
+            <div class="settings-bar">
+                <span>🌐 <strong>Auto-Spracherkennung:</strong> Aktiv (DE ⇄ EN)</span>
+                <label><input type="checkbox" id="slow-audio-toggle"> 🐢 Langsame Audio-Ausgabe</label>
+            </div>
+
+            <div class="quick-replies">
+                <span>⚡ Quick Replies & Snippets:</span>
+                <input type="text" id="snippet-search" class="snippet-search" placeholder="🔍 Snippets durchsuchen..." onkeyup="filterSnippets()">
+                <div class="qr-grid" id="qr-grid"></div>
+            </div>
+
+            <div id="chat-box"></div>
+            <div class="status" id="status-text">System bereit</div>
+            
+            <div class="btn-row">
+                <button id="record-btn" onclick="toggleRecording()">🎤 Manuell (Push-to-Stop)</button>
+                <button id="auto-btn" onclick="toggleAutoRecording()">🎙️ Auto-Modus (Stille)</button>
+            </div>
+
+            <div class="input-group">
+                <input type="text" id="prompt-input" placeholder="Nachricht eingeben (DE oder EN)..." onkeypress="handleKey(event)">
+                <button onclick="sendMessage()">Senden</button>
+            </div>
+
+            <div class="btn-row">
+                <button id="export-btn" onclick="exportChat()">💾 Gespräch & Notizen speichern & Schließen</button>
+            </div>
+            
+            <audio id="audio-player" controls></audio>
+        </div>
+
+        <!-- Rechte Spalte: Agenten-Config, Notizen -->
+        <div class="sidebar-right">
+            <h3>⚙️ Agenten-Profil</h3>
+            
+            <div class="control-group">
+                <label>Berater Name / Alias:</label>
+                <input type="text" id="agent-alias" value="Benno Engler" oninput="renderSnippets()">
+            </div>
+
+            <div class="control-group">
+                <label>Akzent-Variante (Google TTS):</label>
+                <select id="voice-select">
+                    <option value="com">Standard (US / International)</option>
+                    <option value="co.uk">British Accent (UK)</option>
+                    <option value="com.au">Australian Accent</option>
+                    <option value="ca">Canadian Accent</option>
+                </select>
+            </div>
+
+            <h3>📝 Notizen</h3>
+            <textarea id="notes-textarea" placeholder="Hier Notizen eintragen..."></textarea>
+        </div>
+    </div>
+
+    <script>
+        const audioPlayer = document.getElementById('audio-player');
+        let chatHistory = [];
+        const sessionId = 'session_' + Math.random().toString(36).substring(2, 15);
+        let mediaStream = null;
+        let isClosingSession = false;
+
+        let startTime = null;
+        let timerInterval = null;
+        let isTimerRunning = false;
+
+        function startAHTTimer() {
+            if (isTimerRunning) return;
+            isTimerRunning = true;
+            startTime = Date.now();
+            
+            const badge = document.getElementById('aht-timer');
+            badge.classList.add("active");
+
+            timerInterval = setInterval(() => {
+                const elapsedSeconds = Math.floor((Date.now() - startTime) / 1000);
+                const minutes = String(Math.floor(elapsedSeconds / 60)).padStart(2, '0');
+                const seconds = String(elapsedSeconds % 60).padStart(2, '0');
+                badge.innerText = `⏱️ ${minutes}:${seconds}`;
+            }, 1000);
+        }
+
+        function resetAHTTimer() {
+            clearInterval(timerInterval);
+            isTimerRunning = false;
+            startTime = null;
+            const badge = document.getElementById('aht-timer');
+            badge.classList.remove("active");
+            badge.innerText = "⏱️ 00:00 (Bereit)";
+            
+            // Sentiment Indikator zurücksetzen
+            updateSentimentDisplay("neutral");
+        }
+
+        function updateSentimentDisplay(sentiment) {
+            const badge = document.getElementById('sentiment-indicator');
+            badge.className = "sentiment-badge " + sentiment;
+            if (sentiment === "angry") {
+                badge.innerText = "🔴 Verärgert";
+            } else if (sentiment === "warning") {
+                badge.innerText = "🟡 Ungeduldig";
+            } else {
+                badge.innerText = "🟢 Ruhig";
+            }
+        }
+
+        function getSnippets() {
+            const agent = getAgentName();
+            return [
+                { title: "1. Begrüßung", text: `Herzlich willkommen bei mobile.de. Sie sprechen mit ${agent}, was kann ich für Sie tun?` },
+                { title: "2. Verifizierung", text: "Damit ich Ihnen weiterhelfen kann benötige ich ein paar Angaben. Nennen Sie mir bitte Ihre Kundennummer oder die Emailadresse mit der Sie sich bei uns registriert haben." },
+                { title: "3. Adresse abgleichen", text: "Zum Abgleich nennen Sie mir bitte Ihre Adressdaten mit Straße, Hausnummer, Ort und Postleitzahl." },
+                { title: "4. Technische Nutzung", text: "Wie nutzen Sie mobile.de? Am Handy, Tablet, Laptop oder Computer?" },
+                { title: "5. Passwort zurücksetzen", text: "Ich habe Ihnen soeben einen Link zum Zurücksetzen Ihres Passworts an Ihre hinterlegte E-Mail-Adresse geschickt." },
+                { title: "6. Inserat freigeben", text: "Ihr Inserat wird nach einer kurzen automatischen Prüfung in den nächsten Minuten online geschaltet." },
+                { title: "7. Zahlungsstatus", text: "Ich sehe im System, dass Ihre Zahlung eingegangen ist und die Gutschrift in Kürze verbucht wird." },
+                { title: "8. Gesprächsabschluss", text: "Konnte ich Ihnen heute ansonsten noch weiterhelfen? Vielen Dank für Ihren Anruf bei mobile.de und einen schönen Tag noch!", isClosing: true }
+            ];
+        }
+
+        function renderSnippets(filter = "") {
+            const grid = document.getElementById('qr-grid');
+            grid.innerHTML = '';
+            
+            const snippets = getSnippets();
+            const lowerFilter = filter.toLowerCase();
+
+            snippets.forEach(s => {
+                if (s.title.toLowerCase().includes(lowerFilter) || s.text.toLowerCase().includes(lowerFilter)) {
+                    const btn = document.createElement('button');
+                    btn.className = 'qr-btn';
+                    btn.title = s.text;
+                    btn.innerText = s.title;
+                    btn.onclick = () => sendQuickReply(s.text, s.isClosing);
+                    grid.appendChild(btn);
+                }
+            });
+        }
+        renderSnippets();
+
+        function filterSnippets() {
+            const query = document.getElementById('snippet-search').value;
+            renderSnippets(query);
+        }
+
+        function getAgentName() {
+            return document.getElementById('agent-alias').value.trim() || "Benno Engler";
+        }
+
+        function appendMessage(sender, text, type) {
+            const chatBox = document.getElementById('chat-box');
+            chatBox.innerHTML += `<div class="message ${type}"><strong>${sender}:</strong> ${text}</div>`;
+            chatBox.scrollTop = chatBox.scrollHeight;
+
+            chatHistory.push({
+                timestamp: new Date().toISOString(),
+                sender: sender,
+                text: text
+            });
+        }
+
+        async function sendMessage() {
+            startAHTTimer();
+            
+            const input = document.getElementById('prompt-input');
+            const text = input.value.trim();
+            const slowAudio = document.getElementById('slow-audio-toggle').checked;
+            const agentName = getAgentName();
+            const voiceTld = document.getElementById('voice-select').value;
+            if (!text) return;
+
+            const isEnglishInput = /^[a-zA-Z\s.,?!'-]+$/.test(text) && (text.toLowerCase().includes("hello") || text.toLowerCase().includes("how") || text.toLowerCase().includes("can") || text.toLowerCase().includes("my") || text.toLowerCase().includes("the") || text.toLowerCase().includes("i"));
+            
+            const senderName = isEnglishInput ? "Kunde (EN - Text)" : `${agentName} (DE - Text)`;
+            const senderType = isEnglishInput ? "kunde" : "betreuer";
+            
+            appendMessage(senderName, text, senderType);
+            input.value = '';
+
+            try {
+                const response = await fetch('/api/generate', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        prompt: text, 
+                        model: 'llama3', 
+                        session_id: sessionId, 
+                        slow_audio: slowAudio,
+                        agent_name: agentName,
+                        voice_tld: voiceTld
+                    })
+                });
+                const data = await response.json();
+                
+                const aiName = isEnglishInput ? `${agentName} / Übersetzung (DE)` : "Kunde / Übersetzung (EN)";
+                const aiType = isEnglishInput ? "betreuer" : "kunde";
+
+                appendMessage(aiName, data.response, aiType);
+
+                // Wenn es eine Kundeneingabe war, aktualisieren wir das Sentiment
+                if (isEnglishInput && data.sentiment) {
+                    updateSentimentDisplay(data.sentiment);
+                }
+
+                if (data.audio_url) {
+                    audioPlayer.src = data.audio_url + "?t=" + new Date().getTime();
+                    await audioPlayer.play().catch(e => console.log("Autoplay blockiert:", e));
+                }
+            } catch (error) {
+                appendMessage("System", "Verbindungsfehler.", "system");
+                isClosingSession = false;
+            }
+        }
+
+        window.sendQuickReply = async function(text, isClosing = false) {
+            startAHTTimer();
+            isClosingSession = isClosing;
+            
+            const agentName = getAgentName();
+            const slowAudio = document.getElementById('slow-audio-toggle').checked;
+            const voiceTld = document.getElementById('voice-select').value;
+
+            appendMessage(`${agentName} (DE - Snippet)`, text, "betreuer");
+
+            try {
+                const response = await fetch('/api/generate', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        prompt: text, 
+                        model: 'llama3', 
+                        session_id: sessionId, 
+                        slow_audio: slowAudio,
+                        agent_name: agentName,
+                        voice_tld: voiceTld
+                    })
+                });
+                const data = await response.json();
+                
+                appendMessage("Kunde / Übersetzung (EN)", data.response, "kunde");
+
+                if (data.audio_url) {
+                    audioPlayer.src = data.audio_url + "?t=" + new Date().getTime();
+                    await audioPlayer.play().catch(e => console.log("Autoplay blockiert:", e));
+                }
+            } catch (error) {
+                appendMessage("System", "Verbindungsfehler beim Snippet.", "system");
+                isClosingSession = false;
+            }
+        };
+
+        audioPlayer.onended = () => {
+            if (isClosingSession) {
+                isClosingSession = false;
+                setTimeout(() => {
+                    exportChat();
+                }, 500);
+            }
+        };
+
+        let mediaRecorder;
+        let audioChunks = [];
+        let isRecording = false;
+
+        async function toggleRecording() {
+            startAHTTimer();
+            const btn = document.getElementById('record-btn');
+            const statusText = document.getElementById('status-text');
+
+            if (!isRecording) {
+                try {
+                    audioChunks = [];
+                    mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                    mediaRecorder = new MediaRecorder(mediaStream);
+                    mediaRecorder.ondataavailable = event => audioChunks.push(event.data);
+                    mediaRecorder.onstop = () => processAudio(false);
+
+                    mediaRecorder.start();
+                    isRecording = true;
+                    btn.innerText = "⏹️ Aufnahme stoppen";
+                    btn.classList.add("recording");
+                    statusText.innerText = "Höre zu (Manuell)...";
+                } catch (err) {
+                    alert("Mikrofon-Zugriff verweigert!");
+                }
+            } else {
+                stopManualRecording();
+            }
+        }
+
+        function stopManualRecording() {
+            if (!isRecording) return;
+            isRecording = false;
+            if (mediaRecorder && mediaRecorder.state !== "inactive") {
+                mediaRecorder.stop();
+            }
+            if (mediaStream) {
+                mediaStream.getTracks().forEach(track => track.stop());
+            }
+            const btn = document.getElementById('record-btn');
+            btn.innerText = "🎤 Manuell (Push-to-Stop)";
+            btn.classList.remove("recording");
+        }
+
+        let autoMediaRecorder;
+        let autoAudioChunks = [];
+        let isAutoRecording = false;
+        let audioContext, analyser, microphone, silenceTimer;
+
+        async function toggleAutoRecording() {
+            startAHTTimer();
+            const autoBtn = document.getElementById('auto-btn');
+            const statusText = document.getElementById('status-text');
+
+            if (!isAutoRecording) {
+                try {
+                    autoAudioChunks = [];
+                    mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                    autoMediaRecorder = new MediaRecorder(mediaStream);
+                    autoMediaRecorder.ondataavailable = event => autoAudioChunks.push(event.data);
+                    autoMediaRecorder.onstop = () => processAudio(true);
+
+                    audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                    analyser = audioContext.createAnalyser();
+                    microphone = audioContext.createMediaStreamSource(mediaStream);
+                    microphone.connect(analyser);
+                    analyser.fftSize = 512;
+                    const dataArray = new Uint8Array(analyser.frequencyBinCount);
+
+                    autoMediaRecorder.start();
+                    isAutoRecording = true;
+                    autoBtn.innerText = "⏹️ Auto stoppen";
+                    autoBtn.classList.add("recording");
+                    statusText.innerText = "Auto-Modus aktiv (Spreche DE oder EN)...";
+
+                    let hasSpoken = false;
+
+                    const checkAudioLevel = () => {
+                        if (!isAutoRecording) return;
+                        analyser.getByteFrequencyData(dataArray);
+                        let sum = dataArray.reduce((a, b) => a + b, 0);
+                        let average = sum / dataArray.length;
+
+                        if (average > 12) {
+                            hasSpoken = true;
+                            clearTimeout(silenceTimer);
+                        } else if (hasSpoken) {
+                            clearTimeout(silenceTimer);
+                            silenceTimer = setTimeout(() => {
+                                if (isAutoRecording) {
+                                    stopAutoRecording();
+                                }
+                            }, 1500);
+                        }
+                        requestAnimationFrame(checkAudioLevel);
+                    };
+                    checkAudioLevel();
+
+                } catch (err) {
+                    alert("Mikrofon-Zugriff verweigert!");
+                }
+            } else {
+                stopAutoRecording();
+            }
+        }
+
+        function stopAutoRecording() {
+            if (!isAutoRecording) return;
+            isAutoRecording = false;
+            clearTimeout(silenceTimer);
+            if (autoMediaRecorder && autoMediaRecorder.state !== "inactive") {
+                autoMediaRecorder.stop();
+            }
+            if (audioContext && audioContext.state !== 'closed') {
+                audioContext.close();
+            }
+            if (mediaStream) {
+                mediaStream.getTracks().forEach(track => track.stop());
+            }
+            const autoBtn = document.getElementById('auto-btn');
+            autoBtn.innerText = "🎙️ Auto-Modus (Stille)";
+            autoBtn.classList.remove("recording");
+        }
+
+        async function processAudio(isAuto) {
+            const chunksToProcess = isAuto ? autoAudioChunks : audioChunks;
+            if (chunksToProcess.length === 0) return;
+
+            const statusText = document.getElementById('status-text');
+            const slowAudio = document.getElementById('slow-audio-toggle').checked;
+            const agentName = getAgentName();
+            const voiceTld = document.getElementById('voice-select').value;
+            statusText.innerText = "Erkenne Sprache & Übersetze...";
+
+            const audioBlob = new Blob(chunksToProcess, { type: 'audio/webm' });
+            if (isAuto) { autoAudioChunks = []; } else { audioChunks = []; }
+
+            const formData = new FormData();
+            formData.append("file", audioBlob, "voice.webm");
+            formData.append("session_id", sessionId);
+            formData.append("slow_audio", slowAudio);
+            formData.append("agent_name", agentName);
+            formData.append("voice_tld", voiceTld);
+
+            try {
+                const response = await fetch('/api/bilingual-chat', { method: 'POST', body: formData });
+                const data = await response.json();
+
+                if (data.user_transcript) {
+                    const isEnglish = /^[a-zA-Z\s.,?!'-]+$/.test(data.user_transcript) && data.user_transcript.length > 5;
+                    const userLabel = isEnglish ? "Kunde (Sprache EN)" : `${agentName} (Sprache DE)`;
+                    const userType = isEnglish ? "kunde" : "betreuer";
+                    const aiLabel = isEnglish ? `${agentName} / Übersetzung (DE)` : "Kunde / Übersetzung (EN)";
+                    const aiType = isEnglish ? "betreuer" : "kunde";
+
+                    appendMessage(userLabel, data.user_transcript, userType);
+                    appendMessage(aiLabel, data.response, aiType);
+
+                    // Sentiment für Audio-Kundeninput aktualisieren
+                    if (data.sentiment) {
+                        updateSentimentDisplay(data.sentiment);
+                    }
+
+                    if (data.audio_url) {
+                        audioPlayer.src = data.audio_url + "?t=" + new Date().getTime();
+                        await audioPlayer.play().catch(e => console.log("Autoplay blockiert:", e));
+                    }
+                }
+                statusText.innerText = "System bereit";
+            } catch (err) {
+                statusText.innerText = "Fehler bei der Verarbeitung.";
+            }
+        }
+
+        function exportChat() {
+            if (chatHistory.length === 0 && document.getElementById('notes-textarea').value.trim() === "") {
+                alert("Keine Nachrichten oder Notizen zum Exportieren vorhanden.");
+                return;
+            }
+
+            const agentName = getAgentName();
+            const currentDuration = isTimerRunning ? document.getElementById('aht-timer').innerText.replace('⏱️️ ', '') : "00:00";
+            const currentSentiment = document.getElementById('sentiment-indicator').innerText;
+
+            let textContent = "--- BilingualBridge Gesprächsprotokoll & Notizen (mobile.de) ---\n";
+            textContent += `Betreuer: ${agentName}\n`;
+            textContent += `Erstellt am: ${new Date().toLocaleString()}\n`;
+            textContent += `Gesamtdauer (AHT): ${currentDuration} Min.\n`;
+            textContent += `Kundenstimmung: ${currentSentiment}\n\n`;
+
+            const notesText = document.getElementById('notes-textarea').value.trim();
+            if (notesText) {
+                textContent += "=== NOTIZEN ===\n" + notesText + "\n\n=== GESPRÄCHSVERLAUF ===\n";
+            }
+
+            chatHistory.forEach(entry => {
+                textContent += `[${entry.timestamp}] ${entry.sender}:\n${entry.text}\n\n`;
+            });
+
+            const blob = new Blob([textContent], { type: 'text/plain;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `mobile-de-${agentName.toLowerCase().replace(/\s+/g, '-')}-${new Date().toISOString().slice(0,10)}.txt`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+
+            setTimeout(() => {
+                document.getElementById('chat-box').innerHTML = '<div class="message system">Gespräch & Notizen gespeichert. Neuer Workspace bereit.</div>';
+                document.getElementById('notes-textarea').value = '';
+                chatHistory = [];
+                resetAHTTimer();
+            }, 500);
+        }
+
+        function handleKey(event) {
+            if (event.key === 'Enter') sendMessage();
+        }
+    </script>
+</body>
+</html>

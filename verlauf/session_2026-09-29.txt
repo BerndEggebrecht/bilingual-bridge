@@ -1,0 +1,128 @@
+[2026-09-29 18:46:31] [Session: session_w2tzon0dgjn] Benno Engler (DE - Text): My Name is Max Mutzke. My invoice is to high.
+[2026-09-29 18:49:02] [Session: session_w2tzon0dgjn] Kunde / Übersetzung (EN): My Name is Max Mutzke. My invoice is too high.
+[2026-09-29 19:10:32] [Session: session_ou6efkgj05] Kunde (EN - Text): Hello, My Name is Max Mutzke and my invoice is to high
+[2026-09-29 19:12:55] [Session: session_ou6efkgj05] Benno / Übersetzung (DE): Hallo, mein Name ist Max Mutzke und meine Rechnung ist zu hoch.
+[2026-09-29 19:13:15] [Session: session_ou6efkgj05] Benno Engler (DE - Text): Herzlich willkommen bei mobile.de. Sie sprechen mit Benno Engler, was kann ich für Sie tun?
+[2026-09-29 19:13:58] [Session: session_ou6efkgj05] Kunde / Übersetzung (EN): Warmly welcome at mobile.de. I'm Benno Engler, what can I do for you?
+[2026-09-29 19:14:27] [Session: session_ou6efkgj05] Kunde (EN - Text): can you help my with my invoice?
+[2026-09-29 19:14:44] [Session: session_ou6efkgj05] Benno / Übersetzung (DE): Könnten Sie mir bitte mit meiner Rechnung helfen?
+[2026-09-29 19:15:07] [Session: session_ou6efkgj05] Benno Engler (DE - Text): Nennen Sie mir bitte Ihre Rechnungsnummer
+[2026-09-29 19:15:15] [Session: session_ou6efkgj05] Kunde / Übersetzung (EN): Please provide your invoice number.
+[2026-09-29 19:15:50] [Session: session_ou6efkgj05] Benno Engler (DE - Text): my invoice Nummer ist R E 437-634-2026
+[2026-09-29 19:16:04] [Session: session_ou6efkgj05] Kunde / Übersetzung (EN): My invoice number is RE 437-634-2026.
+[2026-09-29 19:17:41] [Session: session_ou6efkgj05] Benno Engler (DE - Text): Vielen Dank, ich sehe das wir Ihr Inserat doppelt berechnet haben. Den zuviel bezahlten Betrag sende ich Ihnen gern als Gutschrift zurück. Dieses kommt auf dem gleichen Weg wie sie bezahlt haben. Ist das okay für Sie?
+[2026-09-29 19:18:45] [Session: session_ou6efkgj05] Kunde / Übersetzung (EN): Thank you very much, I see that we have overcharged you for your ad. I'd be happy to send the excess amount back to you as a credit. This will be sent to you via the same method you used to pay. Is that okay with you?
+[2026-09-29 19:19:26] [Session: session_ou6efkgj05] Kunde (EN - Text): Oh, thx is it okay.
+[2026-09-29 19:19:40] [Session: session_ou6efkgj05] Benno / Übersetzung (DE): Oh, danke ist es okay.
+[2026-09-29 19:21:44] [Session: session_ou6efkgj05] Benno Engler (DE - Text): Herzlich willkommen bei mobile.de. Sie sprechen mit Benno Engler, was kann ich für Sie tun?
+[2026-09-29 19:22:12] [Session: session_ou6efkgj05] Kunde / Übersetzung (EN): Welcome to mobile.de. I'm Benno Engler, what can I do for you?
+[2026-09-29 19:26:40] [Session: session_xgqwg6ckx8] Hans Dampf (DE - Text): Herzlich willkommen bei mobile.de. Sie sprechen mit Hans Dampf, was kann ich für Sie tun?
+[2026-09-29 19:27:48] [Session: session_xgqwg6ckx8] Kunde / Übersetzung (EN): Welcome to mobile.de. I'm Hans Dampf, what can I do for you?
+[2026-09-29 19:51:33] [Session: session_61gzhh9ehiv] Anne Mende (DE - Text): Herzlich willkommen bei mobile.de. Sie sprechen mit Anne Mende, was kann ich für Sie tun?
+[2026-09-29 19:54:23] [Session: session_61gzhh9ehiv] Kunde / Übersetzung (EN): Warmly welcome to mobile.de. I'm Anne Mende, what can I do for you?
+[2026-09-29 19:57:08] [Session: session_61gzhh9ehiv] Kunde (EN - Text): my name is Benno and my invoice is to high
+[2026-09-29 19:57:36] [Session: session_61gzhh9ehiv] Anne Mende / Übersetzung (DE): Mein Name ist Benno und meine Rechnung ist zu hoch.
+[2026-09-29 19:58:09] [Session: session_61gzhh9ehiv] Anne Mende (DE - Text): Nennen Sie mir bitte Ihre Rechnungsnummer
+[2026-09-29 19:58:18] [Session: session_61gzhh9ehiv] Kunde / Übersetzung (EN): Please provide your invoice number.
+[2026-09-29 19:58:42] [Session: session_61gzhh9ehiv] Anne Mende (DE - Text): Zum Abgleich nennen Sie mir bitte Ihre Adressdaten mit Straße, Hausnummer, Ort und Postleitzahl.
+[2026-09-29 19:59:03] [Session: session_61gzhh9ehiv] Kunde / Übersetzung (EN): Please provide your address data with street, house number, town, and zip code for verification.
+[2026-09-29 20:02:05] [Session: session_yullwxewldr] Anne Mende (DE - Text): Herzlich willkommen bei mobile.de. Sie sprechen mit Anne Mende, was kann ich für Sie tun?
+[2026-09-29 20:03:14] [Session: session_yullwxewldr] Kunde / Übersetzung (EN): Warm welcome to mobile.de. I'm Anne Mende, what can I do for you?
+[2026-09-29 20:06:59] [Session: session_yullwxewldr] Kunde (EN - Text): Hello, my Name is Mark and my invoice is to high
+[2026-09-29 20:07:22] [Session: session_yullwxewldr] Anne Mende / Übersetzung (DE): Hallo, ich heiße Mark und meine Rechnung ist zu hoch.
+[2026-09-29 20:08:05] [Session: session_yullwxewldr] Anne Mende (DE - Text): Ich schaue mir das gerne einmal an. nennen sie mir bitte ihre Rechnungsnummer
+[2026-09-29 20:08:23] [Session: session_yullwxewldr] Kunde / Übersetzung (EN): I'll take a look at that once. Can you please give me your invoice number?
+[2026-09-29 20:09:02] [Session: session_yullwxewldr] Kunde (EN - Text): My invoice number is r e 2026-345-197
+[2026-09-29 20:09:17] [Session: session_yullwxewldr] Anne Mende / Übersetzung (DE): Meine Rechnungnummer ist RE 2026-345-197.
+[2026-09-29 20:10:39] [Session: session_yullwxewldr] Anne Mende (DE - Text): Vielen Dank, ich sehe das wir ihr Inserat doppelt abgerechnet haben. Ich kann Ihnen den zuviel bezahlten betrag als Gutschrift auf den selben Weg wie sie bezahlt haben zurück erstatten.
+[2026-09-29 20:11:15] [Session: session_yullwxewldr] Kunde / Übersetzung (EN): Many thanks, I notice we've overcharged her for the ad twice. I can refund the excessive amount as a credit on the same payment method she used.
+[2026-09-29 20:11:50] [Session: session_yullwxewldr] Anne Mende (DE - Text): thx its okay.
+[2026-09-29 20:12:02] [Session: session_yullwxewldr] Kunde / Übersetzung (EN): Thanks, it's okay.
+[2026-09-29 20:12:42] [Session: session_yullwxewldr] Anne Mende (DE - Text): Kann ich noch was für sie tun?
+[2026-09-29 20:12:52] [Session: session_yullwxewldr] Kunde / Übersetzung (EN): Can I do anything for you?
+[2026-09-29 20:13:07] [Session: session_yullwxewldr] Anne Mende (DE - Text): no its perfect, thx
+[2026-09-29 20:13:15] [Session: session_yullwxewldr] Kunde / Übersetzung (EN): It's perfect, thanks.
+[2026-09-29 20:14:51] [Session: session_yullwxewldr] Anne Mende (DE - Text): Super, nach dem gespräch gibts noch drei fragen zu meiner person da würde ich mich über ihr feedback freuen. ich wünsche ihnen einen schönen tag.
+[2026-09-29 20:15:20] [Session: session_yullwxewldr] Kunde / Übersetzung (EN): Great, after our conversation, there are still three questions about me and I would appreciate their feedback. I wish them a nice day.
+[2026-09-29 20:22:37] [Session: session_hy9u8pr8ito] Benno Engler (DE - Text): Ich habe Ihnen soeben einen Link zum Zurücksetzen Ihres Passworts an Ihre hinterlegte E-Mail-Adresse geschickt.
+[2026-09-29 20:24:59] [Session: session_hy9u8pr8ito] Kunde / Übersetzung (EN): I recently sent you a link to reset your password to your registered email address.
+[2026-09-29 20:25:13] [Session: session_hy9u8pr8ito] Benno Engler (DE - Text): Ihr Inserat wird nach einer kurzen automatischen Prüfung in den nächsten Minuten online geschaltet.
+[2026-09-29 20:25:32] [Session: session_hy9u8pr8ito] Kunde / Übersetzung (EN): Your ad will be online in the next minutes after a brief automatic review.
+[2026-09-29 20:26:06] [Session: session_hy9u8pr8ito] Benno Engler (DE - Text): Ich sehe im System, dass Ihre Zahlung eingegangen ist und die Gutschrift in Kürze verbucht wird.
+[2026-09-29 20:26:27] [Session: session_hy9u8pr8ito] Kunde / Übersetzung (EN): I see in the system that your payment has arrived and the credit will be booked shortly.
+[2026-09-29 20:26:42] [Session: session_hy9u8pr8ito] Benno Engler (DE - Text): Konnte ich Ihnen heute ansonsten noch weiterhelfen? Vielen Dank für Ihren Anruf bei mobile.de und einen schönen Tag noch!
+[2026-09-29 20:27:05] [Session: session_hy9u8pr8ito] Kunde / Übersetzung (EN): Could I help you further today otherwise? Many thanks for your call to mobile.de and have a nice day!
+[2026-09-29 20:31:11] [Session: session_1xdg9mfw9k5] Benno Engler (DE - Text): Herzlich willkommen bei mobile.de. Sie sprechen mit Benno Engler, was kann ich für Sie tun?
+[2026-09-29 20:32:21] [Session: session_1xdg9mfw9k5] Kunde / Übersetzung (EN): Warm welcome to mobile.de. I'm Benno Engler, how can I assist you?
+[2026-09-29 20:32:30] [Session: session_1xdg9mfw9k5] Kunde (EN - Text): My Name is mark mutzke my invoice is to high
+[2026-09-29 20:33:04] [Session: session_1xdg9mfw9k5] Benno Engler / Übersetzung (DE): Mein Name ist Mark Mutzke, meine Rechnung ist zu hoch.
+[2026-09-29 20:33:16] [Session: session_1xdg9mfw9k5] Benno Engler (DE - Text): Damit ich Ihnen weiterhelfen kann benötige ich ein paar Angaben. Nennen Sie mir bitte Ihre Kundennummer oder die Emailadresse mit der Sie sich bei uns registriert haben.
+[2026-09-29 20:33:48] [Session: session_1xdg9mfw9k5] Kunde / Übersetzung (EN): To help you further, I need some information. Please provide your customer number or the email address associated with your registration with us.
+[2026-09-29 20:34:24] [Session: session_1xdg9mfw9k5] Kunde (EN - Text): my customer number is 435 987 12
+[2026-09-29 20:34:36] [Session: session_1xdg9mfw9k5] Benno Engler / Übersetzung (DE): Mein Kundennummer ist 435 987 12.
+[2026-09-29 20:35:59] [Session: session_1xdg9mfw9k5] Benno Engler (DE - Text): Vielen Dang ich sehe das wir ihr inserat doppelt berechnet haben. Ich kann ihnen den zuviel gezahlten betrag als gutschrift auf dem selben weg wie sie bezahlt haben zurück erstatten.
+[2026-09-29 20:36:35] [Session: session_1xdg9mfw9k5] Kunde / Übersetzung (EN): I appreciate seeing that we inadvertently overcharged her for the insert. I can reimburse her the excess amount she paid as a credit on the same path she used to pay.
+[2026-09-29 20:37:00] [Session: session_1xdg9mfw9k5] Benno Engler (DE - Text): thx, thats okay
+[2026-09-29 20:37:10] [Session: session_1xdg9mfw9k5] Kunde / Übersetzung (EN): Thanks, that's okay.
+[2026-09-29 20:37:34] [Session: session_1xdg9mfw9k5] Benno Engler (DE - Text): kann ich sonst noch etwas für sie tun?
+[2026-09-29 20:37:50] [Session: session_1xdg9mfw9k5] Kunde / Übersetzung (EN): Can I do anything else for you?
+[2026-09-29 20:37:57] [Session: session_1xdg9mfw9k5] Benno Engler (DE - Text): Thanks, that was all.
+[2026-09-29 20:38:07] [Session: session_1xdg9mfw9k5] Kunde / Übersetzung (EN): Thank you, that was all.
+[2026-09-29 20:38:14] [Session: session_1xdg9mfw9k5] Benno Engler (DE - Text): Konnte ich Ihnen heute ansonsten noch weiterhelfen? Vielen Dank für Ihren Anruf bei mobile.de und einen schönen Tag noch!
+[2026-09-29 20:38:39] [Session: session_1xdg9mfw9k5] Kunde / Übersetzung (EN): Could I assist you further today in any other way? Thank you for calling mobile.de and have a great day!
+[2026-09-29 20:43:01] [Session: session_9ksk40a94vm] Benno Engler (DE - Text): Ihr Inserat wird nach einer kurzen automatischen Prüfung in den nächsten Minuten online geschaltet.
+[2026-09-29 20:44:27] [Session: session_9ksk40a94vm] Kunde / Übersetzung (EN): Your ad will be automatically reviewed for a short time and then go live in the next few minutes.
+[2026-09-29 20:44:37] [Session: session_9ksk40a94vm] Benno Engler (DE - Text): Konnte ich Ihnen heute ansonsten noch weiterhelfen? Vielen Dank für Ihren Anruf bei mobile.de und einen schönen Tag noch!
+[2026-09-29 20:44:50] [Session: session_9ksk40a94vm] Kunde / Übersetzung (EN): Could I help you further today otherwise? Many thanks for calling mobile.de and have a nice day!
+[2026-09-29 20:49:51] [Session: session_n92jmt4tlj] Kunde (EN - Text): Herzlich willkommen bei mobile.de. Sie sprechen mit Benno Engler, what can I do for you?
+[2026-09-29 20:54:01] [Session: session_n92jmt4tlj] Benno Engler / Übersetzung (DE): Herzlich willkommen bei mobile.de. Sie sprechen mit Benno Engler, was kann ich für Sie tun?
+[2026-09-29 20:54:33] [Session: session_e8s4x2ywqz] Benno Engler (DE - Text): Herzlich willkommen bei mobile.de. Sie sprechen mit Benno Engler, was kann ich für Sie tun?
+[2026-09-29 20:56:03] [Session: session_e8s4x2ywqz] Kunde / Übersetzung (EN): Warmly welcome to mobile.de. I'm Benno Engler, what can I do for you?
+[2026-09-29 20:57:21] [Session: session_e8s4x2ywqz] Kunde (EN - Text): Hello, my name is Mark; somehow, my bill is too high.
+[2026-09-29 20:57:53] [Session: session_e8s4x2ywqz] Benno Engler / Übersetzung (DE): Hallo, ich heiße Mark; irgendwie ist mein Rechnung zu hoch.
+[2026-09-29 20:58:03] [Session: session_e8s4x2ywqz] Benno Engler (DE - Text): Damit ich Ihnen weiterhelfen kann benötige ich ein paar Angaben. Nennen Sie mir bitte Ihre Kundennummer oder die Emailadresse mit der Sie sich bei uns registriert haben.
+[2026-09-29 20:58:50] [Session: session_e8s4x2ywqz] Kunde / Übersetzung (EN): To help you further, I need some information. Please provide your customer number or the email address where you registered with us.
+[2026-09-29 20:59:16] [Session: session_e8s4x2ywqz] Kunde (EN - Text): My customer number is 342876.
+[2026-09-29 20:59:31] [Session: session_e8s4x2ywqz] Benno Engler / Übersetzung (DE): Mein Kundennummer ist 342876.
+[2026-09-29 21:01:11] [Session: session_e8s4x2ywqz] Benno Engler (DE - Text): Vielen Dank, ich sehe grad das wir ihr Inserat doppelt gebucht haben. Ich kann Ihnen den zuviel bezahlten Bertag auf den gleichen weg wie sie gezahlr haben zurück erstatten
+[2026-09-29 21:02:12] [Session: session_e8s4x2ywqz] Kunde / Übersetzung (EN): Many thanks, I see we've booked her ad twice. I can reimburse you for the overpaid Berntag on the same way she paid.
+[2026-09-29 21:03:12] [Session: session_e8s4x2ywqz] Kunde (EN - Text): Very good, thank you very much. By when can I expect the contract?
+[2026-09-29 21:03:43] [Session: session_e8s4x2ywqz] Benno Engler / Übersetzung (DE): Sehr gut, vielen Dank. Bis wann kann ich den Vertrag erwarten?
+[2026-09-29 21:04:31] [Session: session_e8s4x2ywqz] Benno Engler (DE - Text): Die rückerstattung dauert 5 werktage, erfahrungs gemäß ist es aber schneller bei Ihnen.
+[2026-09-29 21:05:03] [Session: session_e8s4x2ywqz] Kunde / Übersetzung (EN): The refund takes 5 working days, according to experience it's actually faster with you.
+[2026-09-29 21:05:47] [Session: session_e8s4x2ywqz] Kunde (EN - Text): Thank you very much.
+[2026-09-29 21:05:59] [Session: session_e8s4x2ywqz] Benno Engler / Übersetzung (DE): Vielen Dank.
+[2026-09-29 21:06:06] [Session: session_e8s4x2ywqz] Benno Engler (DE - Text): Konnte ich Ihnen heute ansonsten noch weiterhelfen? Vielen Dank für Ihren Anruf bei mobile.de und einen schönen Tag noch!
+[2026-09-29 21:06:42] [Session: session_e8s4x2ywqz] Kunde / Übersetzung (EN): Could I assist you further today, otherwise? Many thanks for calling mobile.de and have a great day!
+[2026-09-29 21:10:24] [Session: session_6kq1sihggw5] Benno Engler (DE - Text): Herzlich willkommen bei mobile.de. Sie sprechen mit Benno Engler, was kann ich für Sie tun?
+[2026-09-29 21:12:23] [Session: session_6kq1sihggw5] Kunde / Übersetzung (EN): Welcome to mobile.de. I'm Benno Engler, what can I do for you?
+[2026-09-29 21:13:28] [Session: session_6kq1sihggw5] Kunde (EN - Text): My name is Mark Mutzke; my bill is too high.
+[2026-09-29 21:14:10] [Session: session_6kq1sihggw5] Benno Engler / Übersetzung (DE): Mein Name ist Mark Mutzke; meine Rechnung ist zu hoch.
+[2026-09-29 21:14:20] [Session: session_6kq1sihggw5] Benno Engler (DE - Text): Damit ich Ihnen weiterhelfen kann benötige ich ein paar Angaben. Nennen Sie mir bitte Ihre Kundennummer oder die Emailadresse mit der Sie sich bei uns registriert haben.
+[2026-09-29 21:15:06] [Session: session_6kq1sihggw5] Kunde / Übersetzung (EN): I need a few details to help you further. Please give me your customer number or the email address with which you registered with us.
+[2026-09-29 21:15:59] [Session: session_6kq1sihggw5] Kunde (EN - Text): My customer number is 145 9765 34 and the email address is mark.mutzke@aol.com.
+[2026-09-29 21:16:37] [Session: session_6kq1sihggw5] Benno Engler / Übersetzung (DE): Mein Kundennummer ist 145 9765 34 und die E-Mail-Adresse ist mark.mutzke@aol.com.
+[2026-09-29 21:17:07] [Session: session_6kq1sihggw5] Benno Engler (DE - Text): Konnte ich Ihnen heute ansonsten noch weiterhelfen? Vielen Dank für Ihren Anruf bei mobile.de und einen schönen Tag noch!
+[2026-09-29 21:17:42] [Session: session_6kq1sihggw5] Kunde / Übersetzung (EN): Could I help you further today? Thank you for your call at mobile.de and have a nice day!
+[2026-09-29 21:21:49] [Session: session_7499znve009] Benno Engler (DE - Text): Herzlich willkommen bei mobile.de. Sie sprechen mit Benno Engler, was kann ich für Sie tun?
+[2026-09-29 21:23:27] [Session: session_7499znve009] Kunde / Übersetzung (EN): Welcome to mobile.de. I'm Benno Engler, how can I help you?
+[2026-09-29 21:23:40] [Session: session_7499znve009] Kunde (EN - Text): I know you need my customer number—it's 145 9765 34—and the email address is mark.mutzke@aol.com, and my bill is too high.
+[2026-09-29 21:24:44] [Session: session_7499znve009] Benno Engler / Übersetzung (DE): Ich kenne mein Kundennummer - 145 9765 34 - und meine Email-Adresse ist mark.mutzke@aol.com, mein Rechnungsbetrag ist auch zu hoch.
+[2026-09-29 21:25:03] [Session: session_7499znve009] Benno Engler (DE - Text): Zum Abgleich nennen Sie mir bitte Ihre Adressdaten mit Straße, Hausnummer, Ort und Postleitzahl.
+[2026-09-29 21:25:35] [Session: session_7499znve009] Kunde / Übersetzung (EN): Please provide your address data with street, house number, town, and postal code for verification.
+[2026-09-29 21:25:57] [Session: session_7499znve009] Kunde (EN - Text): Seriously, that too? I live at Markt 8 in 04821 Brandis.
+[2026-09-29 21:26:24] [Session: session_7499znve009] Benno Engler / Übersetzung (DE): Das ist ehrlich gesagt auch so? Ich wohne am Markt 8 in 04821 Brandis.
+[2026-09-29 21:26:50] [Session: session_7499znve009] Benno Engler (DE - Text): Ich sehe im System, dass Ihre Zahlung eingegangen ist und die Gutschrift in Kürze verbucht wird.
+[2026-09-29 21:27:13] [Session: session_7499znve009] Kunde / Übersetzung (EN): I see in the system that your payment has been received and the credit will be booked shortly.
+[2026-09-29 21:27:46] [Session: session_7499znve009] Benno Engler (DE - Text): Yes, but that's way too high. What happened there?
+[2026-09-29 21:27:59] [Session: session_7499znve009] Kunde / Übersetzung (EN): Yes, but that's way too high. What happened there?
+[2026-09-29 21:29:18] [Session: session_7499znve009] Benno Engler (DE - Text): Ich sehe wir haben das Inserat doppelt abgebucht. Ich kann ihnen den zuviel gezahlten Betrag gern auf dem selben weg wie sie bezahlt haben zurück erstatten.
+[2026-09-29 21:30:01] [Session: session_7499znve009] Kunde / Übersetzung (EN): I see we've double-booked the ad. I can gladly refund the excess payment to you in the same manner as you paid.
+[2026-09-29 21:30:09] [Session: session_7499znve009] Kunde (EN - Text): I certainly hope so. When will the money reach me?
+[2026-09-29 21:30:27] [Session: session_7499znve009] Benno Engler / Übersetzung (DE): Ich hoffe das, wann wird das Geld zu mir eintreffen?
+[2026-09-29 21:31:18] [Session: session_7499znve009] Benno Engler (DE - Text): Das Guthaben wird ihnen in den nächsten 5 werktagen gut geschrieben, meistens geht es aber schneller.
+[2026-09-29 21:31:39] [Session: session_7499znve009] Kunde / Übersetzung (EN): The credit will be credited to them within the next 5 weekdays, usually it goes faster.
+[2026-09-29 21:32:12] [Session: session_7499znve009] Benno Engler (DE - Text): It's about time!
+[2026-09-29 21:32:19] [Session: session_7499znve009] Kunde / Übersetzung (EN): It's about time!
+[2026-09-29 21:32:25] [Session: session_7499znve009] Benno Engler (DE - Text): Konnte ich Ihnen heute ansonsten noch weiterhelfen? Vielen Dank für Ihren Anruf bei mobile.de und einen schönen Tag noch!
+[2026-09-29 21:32:50] [Session: session_7499znve009] Kunde / Übersetzung (EN): Could I help you further today otherwise? Many thanks for your call to mobile.de and have a nice day!

@@ -1,0 +1,72 @@
+--- BilingualBridge Gesprächsprotokoll & Notizen (mobile.de) ---
+Betreuer: Benno Engler
+Erstellt am: 29.9.2026, 21:33:01
+Gesamtdauer (AHT): ⏱️ 11:11 Min.
+Kundenstimmung: 🟢 Ruhig
+
+[2026-09-29T19:21:49.464Z] Benno Engler (DE - Snippet):
+Herzlich willkommen bei mobile.de. Sie sprechen mit Benno Engler, was kann ich für Sie tun?
+
+[2026-09-29T19:23:29.064Z] Kunde / Übersetzung (EN):
+Welcome to mobile.de. I'm Benno Engler, how can I help you?
+
+[2026-09-29T19:23:37.405Z] Benno Engler (DE - Text):
+I know you need my customer number—it's 145 9765 34—and the email address is mark.mutzke@aol.com, and my bill is too high.
+
+[2026-09-29T19:24:46.499Z] Kunde / Übersetzung (EN):
+Ich kenne mein Kundennummer - 145 9765 34 - und meine Email-Adresse ist mark.mutzke@aol.com, mein Rechnungsbetrag ist auch zu hoch.
+
+[2026-09-29T19:25:03.617Z] Benno Engler (DE - Snippet):
+Zum Abgleich nennen Sie mir bitte Ihre Adressdaten mit Straße, Hausnummer, Ort und Postleitzahl.
+
+[2026-09-29T19:25:36.740Z] Kunde / Übersetzung (EN):
+Please provide your address data with street, house number, town, and postal code for verification.
+
+[2026-09-29T19:25:54.397Z] Benno Engler (DE - Text):
+Seriously, that too? I live at Markt 8 in 04821 Brandis.
+
+[2026-09-29T19:26:25.544Z] Kunde / Übersetzung (EN):
+Das ist ehrlich gesagt auch so? Ich wohne am Markt 8 in 04821 Brandis.
+
+[2026-09-29T19:26:50.778Z] Benno Engler (DE - Snippet):
+Ich sehe im System, dass Ihre Zahlung eingegangen ist und die Gutschrift in Kürze verbucht wird.
+
+[2026-09-29T19:27:14.548Z] Kunde / Übersetzung (EN):
+I see in the system that your payment has been received and the credit will be booked shortly.
+
+[2026-09-29T19:27:46.677Z] Kunde (EN - Text):
+Yes, but that's way too high. What happened there?
+
+[2026-09-29T19:28:01.040Z] Benno Engler / Übersetzung (DE):
+Yes, but that's way too high. What happened there?
+
+[2026-09-29T19:29:18.780Z] Benno Engler (DE - Text):
+Ich sehe wir haben das Inserat doppelt abgebucht. Ich kann ihnen den zuviel gezahlten Betrag gern auf dem selben weg wie sie bezahlt haben zurück erstatten.
+
+[2026-09-29T19:30:02.440Z] Kunde / Übersetzung (EN):
+I see we've double-booked the ad. I can gladly refund the excess payment to you in the same manner as you paid.
+
+[2026-09-29T19:30:06.312Z] Kunde (EN - Text):
+I certainly hope so. When will the money reach me?
+
+[2026-09-29T19:30:27.726Z] Benno Engler / Übersetzung (DE):
+Ich hoffe das, wann wird das Geld zu mir eintreffen?
+
+[2026-09-29T19:31:18.515Z] Benno Engler (DE - Text):
+Das Guthaben wird ihnen in den nächsten 5 werktagen gut geschrieben, meistens geht es aber schneller.
+
+[2026-09-29T19:31:40.542Z] Kunde / Übersetzung (EN):
+The credit will be credited to them within the next 5 weekdays, usually it goes faster.
+
+[2026-09-29T19:32:12.832Z] Kunde (EN - Text):
+It's about time!
+
+[2026-09-29T19:32:20.422Z] Benno Engler / Übersetzung (DE):
+It's about time!
+
+[2026-09-29T19:32:25.920Z] Benno Engler (DE - Snippet):
+Konnte ich Ihnen heute ansonsten noch weiterhelfen? Vielen Dank für Ihren Anruf bei mobile.de und einen schönen Tag noch!
+
+[2026-09-29T19:32:52.868Z] Kunde / Übersetzung (EN):
+Could I help you further today otherwise? Many thanks for your call to mobile.de and have a nice day!
+

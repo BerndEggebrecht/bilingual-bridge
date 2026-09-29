@@ -1,0 +1,59 @@
+--- BilingualBridge Gesprächsprotokoll & Notizen (mobile.de) ---
+Betreuer: Benno Engler
+Erstellt am: 29.9.2026, 20:38:56
+Gesamtdauer (AHT): 07:49 Min.
+
+[2026-09-29T18:31:11.415Z] Benno Engler (DE - Text):
+Herzlich willkommen bei mobile.de. Sie sprechen mit Benno Engler, was kann ich für Sie tun?
+
+[2026-09-29T18:32:23.383Z] Kunde / Übersetzung (EN):
+Warm welcome to mobile.de. I'm Benno Engler, how can I assist you?
+
+[2026-09-29T18:32:30.841Z] Kunde (EN - Text):
+My Name is mark mutzke my invoice is to high
+
+[2026-09-29T18:33:04.727Z] Benno Engler / Übersetzung (DE):
+Mein Name ist Mark Mutzke, meine Rechnung ist zu hoch.
+
+[2026-09-29T18:33:16.415Z] Benno Engler (DE - Text):
+Damit ich Ihnen weiterhelfen kann benötige ich ein paar Angaben. Nennen Sie mir bitte Ihre Kundennummer oder die Emailadresse mit der Sie sich bei uns registriert haben.
+
+[2026-09-29T18:33:49.565Z] Kunde / Übersetzung (EN):
+To help you further, I need some information. Please provide your customer number or the email address associated with your registration with us.
+
+[2026-09-29T18:34:24.645Z] Benno Engler (DE - Text):
+my customer number is 435 987 12
+
+[2026-09-29T18:34:36.924Z] Kunde / Übersetzung (EN):
+Mein Kundennummer ist 435 987 12.
+
+[2026-09-29T18:35:59.241Z] Benno Engler (DE - Text):
+Vielen Dang ich sehe das wir ihr inserat doppelt berechnet haben. Ich kann ihnen den zuviel gezahlten betrag als gutschrift auf dem selben weg wie sie bezahlt haben zurück erstatten.
+
+[2026-09-29T18:36:37.784Z] Kunde / Übersetzung (EN):
+I appreciate seeing that we inadvertently overcharged her for the insert. I can reimburse her the excess amount she paid as a credit on the same path she used to pay.
+
+[2026-09-29T18:37:00.986Z] Benno Engler (DE - Text):
+thx, thats okay
+
+[2026-09-29T18:37:11.447Z] Kunde / Übersetzung (EN):
+Thanks, that's okay.
+
+[2026-09-29T18:37:34.569Z] Benno Engler (DE - Text):
+kann ich sonst noch etwas für sie tun?
+
+[2026-09-29T18:37:50.773Z] Kunde / Übersetzung (EN):
+Can I do anything else for you?
+
+[2026-09-29T18:37:57.362Z] Benno Engler (DE - Text):
+Thanks, that was all.
+
+[2026-09-29T18:38:08.105Z] Kunde / Übersetzung (EN):
+Thank you, that was all.
+
+[2026-09-29T18:38:14.254Z] Benno Engler (DE - Text):
+Konnte ich Ihnen heute ansonsten noch weiterhelfen? Vielen Dank für Ihren Anruf bei mobile.de und einen schönen Tag noch!
+
+[2026-09-29T18:38:40.857Z] Kunde / Übersetzung (EN):
+Could I assist you further today in any other way? Thank you for calling mobile.de and have a great day!
+

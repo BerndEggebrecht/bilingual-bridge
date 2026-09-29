@@ -1,0 +1,16 @@
+--- BilingualBridge Gesprächsprotokoll (mobile.de) ---
+Betreuer: Benno Engler (Auto Smart Edition)
+Erstellt am: 28.9.2026, 21:25:03
+
+[2026-09-28T19:12:44.518Z] Benno Engler (DE - Text):
+Herzlich willkommen bei mobile.de. Sie sprechen mit Benno Engler, was kann ich für Sie tun?
+
+[2026-09-28T19:15:17.117Z] Kunde / Übersetzung (EN):
+Warmly welcome to mobile.de. You are speaking with Benno Engler, how can I assist you?
+
+[2026-09-28T19:22:22.785Z] Kunde (EN - Text):
+My Name is Max and my invoice is to high
+
+[2026-09-28T19:22:39.339Z] Benno Engler (DE - Text):
+Zum Abgleich nennen Sie mir bitte Ihre Adressdaten mit Straße, Hausnummer, Ort und Postleitzahl.
+

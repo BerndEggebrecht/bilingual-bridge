@@ -1,0 +1,34 @@
+--- BilingualBridge Gesprächsprotokoll (mobile.de) ---
+Betreuer: Benno Engler
+Erstellt am: 28.9.2026, 21:07:13
+
+[2026-09-28T18:54:06.488Z] Benno Engler (DE):
+Herzlich willkommen bei mobile.de. Sie sprechen mit Benno Engler, was kann ich für Sie tun?
+
+[2026-09-28T18:56:07.286Z] Kunde / Übersetzung (EN):
+Warmly welcome to mobile.de. You are speaking with Benno Engler, what can I do for you.
+
+[2026-09-28T18:58:18.093Z] Kunde (EN):
+Hello, my name is Paul Müller; I’m calling about my listing, which has been blocked.
+
+[2026-09-28T18:59:13.556Z] Benno / Übersetzung (DE):
+Hallo, ich heiße Paul Müller; ich rufe an, um mein Angebot zu besprechen, das blockiert wurde.
+
+[2026-09-28T19:01:47.115Z] Benno Engler (DE):
+Nennen Sie mir bitte die Inserats Nummer
+
+[2026-09-28T19:02:18.833Z] Kunde / Übersetzung (EN):
+Please give me the ad number.
+
+[2026-09-28T19:03:04.760Z] Kunde (EN):
+The listing number is 436983005.
+
+[2026-09-28T19:03:48.974Z] Benno / Übersetzung (DE):
+Das Listennummer ist 4-3-6-9-8-3-0-0-5.
+
+[2026-09-28T19:05:25.525Z] Benno Engler (DE):
+Vielen Dank, ich leite Sie weter zu den Kollegen die dsa Inserat für sie wider aktiviert. Kleinen moment es gibt kurz musik und die kollegen sind gleich für sie da.
+
+[2026-09-28T19:06:27.607Z] Kunde / Übersetzung (EN):
+Thank you very much, I will direct you to the colleagues who will reactivate the advertisement for you. Just a moment, there is some music and the colleagues will be right there for you.
+
