@@ -44,3 +44,12 @@ Das System läuft vollständig lokal auf Linux-Systemen, kombiniert hochpräzise
    ```bash
    git clone [https://github.com/BerndEggebrecht/bilingual-bridge.git](https://github.com/BerndEggebrecht/bilingual-bridge.git)
    cd bilingual-bridge
+
+/opt/bilingual-bridge/
+├── main.py              # FastAPI Backend (API, Whisper, Ollama, gTTS, Logging)
+├── static/
+│   └── index.html       # Pro Workspace UI & Client-Logik
+├── verlauf/             # Automatische Gesprächs- und Notizen-Exporte
+├── .gitignore           # Ignoriert venv, Cache und temporäre Dateien
+└── README.md            # Projektdokumentation
+
